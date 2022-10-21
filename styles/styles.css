@@ -14,8 +14,19 @@ header{
 main{
     background-color: rgb(235, 64, 254);
     height: 80vh;
+
+    display: flex;
+
+
 }
 footer{
     background-color: rgb(80, 255, 121);
     height: 10vh;
+}
+
+article{
+    border: 1px solid red;
+    background-color: blue;
+    width: 25%;
+    text-align: center;
 }
