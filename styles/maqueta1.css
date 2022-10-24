@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+padding: 30px;
+background-color: aqua;
+display: flex;
+flex-direction: row;
+}
+header h2{
+    padding: 14px 20px;
+    margin: 5px;
+    background-color: aliceblue;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+nav a{
+    margin: 5px;
+    background-color: white;
+    color: black;
+    padding:14px;
+    text-decoration: none;
+
+}
+.Menu2{
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    flex: 70px;
+    background-color: beige;
+    padding: 20px;
+    margin: 5px;
+}
+aside{
+    flex: 30%;
+    background-color: khaki;
+    padding: 20px;
+}
+.Menu3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(131, 216, 188);
+    
+}
+h1{
+    flex: 70px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    
+}
+div{
+    flex: 30px;
+    background-color:azure;
+    padding: 20px;
+
+}
+.Menu4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+}
+article{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 100%;
+    color: black;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(231, 41, 104);
+}
+h3{
+    margin: 9px;
+    background-color: palevioletred;
+    flex: 60px;
+    padding: 20px;
+
+}
+h4{
+    margin: 9px;
+    background-color: palevioletred;
+    flex: 60px;
+    padding: 20px;
+    text-align: right;
+    text-decoration: underline;
+
+
+}
+.imagenes{
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+@media screen and (max-width:700px){
+    header,nav{
+        flex-direction: column;
+    }
+}
