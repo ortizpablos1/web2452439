@@ -5,15 +5,22 @@
 }
 
 header{
-    background-color: aquamarine;
-    height: 10vh;
+    background-color: rgb(150, 89, 32);
+    height: 15vh;
 
     display: flex;
     justify-content: space-evenly;
 }
+
+.li{
+
+display: flex;
+
+}
+
 main{
     background-color: rgb(235, 64, 254);
-    height: 80vh;
+    height: 75vh;
 
     display: flex;
 
