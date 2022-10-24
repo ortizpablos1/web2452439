@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 176);
     height: 10vh;
 
     display: flex;
@@ -20,13 +20,13 @@ main{
 
 }
 footer{
-    background-color: rgb(242, 8, 160);
+    background-color: rgb(24, 8, 242);
     height: 10vh;
 }
 
 article{
     border: 1px solid red;
-    background-color: blue;
+    background-color: rgb(0, 255, 13);
     width: 25%;
     text-align: center;
 }
